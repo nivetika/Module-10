@@ -21,8 +21,20 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+from collections import deque
+n=int(input())
+lst=deque()
+for i in range(n):
+    lst.append(input())
+for i in range(2):
+    lst.popleft()
+print(list(lst))
+```
 
 ### Output:
 
+<img width="1048" height="500" alt="image" src="https://github.com/user-attachments/assets/f23990e6-a038-4fd7-aefb-b7e3fbe24fa3" />
+
 ## Result:
+Thus to write a python program to remove the last two values from the rear end of the list is created and executed successfully.
