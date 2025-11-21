@@ -23,6 +23,17 @@ To write a Python program to:
 
 ## 🧪 Program: 
 
+```
+from collections import deque
+q=deque()
+for i in range(5):
+    q.append(input())
+newq=deque(sorted(q,reverse=True))
+print(*list(newq))
+```
 ### Output:
 
+<img width="1023" height="446" alt="image" src="https://github.com/user-attachments/assets/836f8e76-0eed-41f7-ab72-d369fe8a6c04" />
+
 ## Result:
+Thus to create python program to display the queue in descending order is created and successfully.
